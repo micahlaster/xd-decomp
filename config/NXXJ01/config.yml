@@ -1,12 +1,9 @@
-# See config.example.yml for documentation.
+object_base: orig/NXXJ01
 object: sys/main.dol
 hash: a7c85b92345a2f2a2980508917dbbb32cf5a2d34
-object_base: orig/NXXJ01
 symbols: config/NXXJ01/symbols.txt
 splits: config/NXXJ01/splits.txt
 # map: orig/NXXJ01/files/Master.MAP
-# Change this to match the linker version.
-# See config.example.yml for a list.
 mw_comment_version: 10
 ldscript_template: config/NXXJ01/module/ldscript.lcf
 

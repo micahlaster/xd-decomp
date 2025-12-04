@@ -1,4 +1,5 @@
-object: orig/GXXE01/sys/main.dol
+object_base: orig/GXXE01
+object: sys/main.dol
 hash: ff9e752ead9914af0b363ae6c831a34ccce189d2
 symbols: config/GXXE01/symbols.txt
 splits: config/GXXE01/splits.txt
