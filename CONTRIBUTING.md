@@ -7,7 +7,7 @@ This document explains how to contribute safely and effectively.
 
 ## Project Goals
 
-- Recreate Pokémon XD’s code in C in a way that rebuilds to a matching retail DOL.
+- Recreate Pokémon XD’s code in C/C++ in a way that rebuilds to a matching retail DOL.
 - Keep the repository legally clean:
   - No ROMs
   - No ISOs
@@ -17,12 +17,10 @@ This document explains how to contribute safely and effectively.
 ## Repository Structure
 
 ```
-asm/        → Raw PowerPC assembly dumps (DOL and REL)
-src/        → Decompiled C code (empty for now)
+src/        → Decompiled C/C++ code (empty for now)
 include/    → Reconstructed headers
-config/     → symbols.txt, splits.txt, linker script
+config/     → symbols.txt, splits.txt, config yaml
 tools/      → Utility scripts (extractors, converters, etc.)
-data/       → Game data tables in clean-room reconstructed form
 docs/       → Documentation
 ```
 
@@ -82,7 +80,7 @@ Clean-room reconstruction only.
 
 ## Working on Symbols
 
-Add new symbols to `config/symbols.txt`.
+Add new symbols to `config/GAMEID/symbols.txt`.
 
 Guidelines:
 - Keep entries clean, sorted, and consistently formatted  
@@ -98,7 +96,7 @@ Example:
 
 ## Working on Splits
 
-Splits go into `config/splits.txt`, defining DOL/REL segment boundaries.
+Splits go into `config/GAMEID/splits.txt`, defining DOL/REL segment boundaries.
 
 Guidelines:
 - Keep the file clean and documented  
