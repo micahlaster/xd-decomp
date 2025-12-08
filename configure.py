@@ -264,6 +264,7 @@ cflags_trk = [
 
 config.linker_version = "GC/2.6"
 
+
 # Helper function for Dolphin libraries
 def DolphinLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
     return {
@@ -939,7 +940,7 @@ config.libs = [
             Object(NonMatching, "game/pxdvs/GSAPI/GSgfxM/renderModule.cpp"),
             Object(NonMatching, "game/pxdvs/GSAPI/GSgfxM/c_func.cpp"),
             Object(NonMatching, "game/pxdvs/GSAPI/GSgfxM/layerConfig.cpp"),
-            Object(NonMatching, "game/pxdvs/GSAPI/GSgfxM/light.cpp"),
+            Object(NonMatching, "game/pxdvs/GSAPI/GSgfxM/light_gfxm.cpp"),
             Object(NonMatching, "game/pxdvs/GSAPI/GSgfxM/layerEffect.cpp"),
             Object(NonMatching, "game/pxdvs/GSAPI/GSgfxM/gamecube.cpp"),
             Object(NonMatching, "game/pxdvs/GSAPI/GSgfxM/screenshot.cpp"),
@@ -1132,7 +1133,7 @@ config.libs = [
             Object(NonMatching, "game/pxdvs/app/wazaSequence/pachiru.cpp"),
             Object(NonMatching, "game/pxdvs/app/wazaSequence/leaffx.cpp"),
             Object(NonMatching, "game/pxdvs/app/wazaSequence/billboard.cpp"),
-            Object(NonMatching, "game/pxdvs/app/wazaSequence/effects.cpp"),
+            Object(NonMatching, "game/pxdvs/app/wazaSequence/wazaeffects.cpp"),
             Object(NonMatching, "game/pxdvs/app/wazaSequence/boneFill.cpp"),
 
             Object(NonMatching, "game/pxdvs/app/etctools/etctools.cpp"),
@@ -1323,14 +1324,14 @@ config.libs = [
             Object(NonMatching, "game/maximum/GSAPI/baselib/lobj.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/memory.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/mobj.cpp"),
-            Object(NonMatching, "game/maximum/GSAPI/baselib/mtx.cpp"),
+            Object(NonMatching, "game/maximum/GSAPI/baselib/mtx_base.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/objalloc.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/object.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/pobj.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/quatlib.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/random.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/robj.cpp"),
-            Object(NonMatching, "game/maximum/GSAPI/baselib/shadow.cpp"),
+            Object(NonMatching, "game/maximum/GSAPI/baselib/shadow_base.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/spline.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/state.cpp"),
             Object(NonMatching, "game/maximum/GSAPI/baselib/tev.cpp"),

@@ -2717,7 +2717,7 @@ game/pxdvs/app/wazaSequence/billboard.cpp:
 	.data       start:0x803F3E98 end:0x803F3EB8
 	.sdata2     start:0x804CF650 end:0x804CF668
 
-game/pxdvs/app/wazaSequence/effects.cpp:
+game/pxdvs/app/wazaSequence/wazaeffects.cpp:
 	.text       start:0x801DD050 end:0x801DD414
 	.sdata2     start:0x804CF668 end:0x804CF670
 
@@ -3242,7 +3242,7 @@ game/maximum/GSAPI/baselib/mobj.cpp:
 	.sbss       start:0x804CC7F8 end:0x804CC808
 	.sdata2     start:0x804CFDC8 end:0x804CFDF8
 
-game/maximum/GSAPI/baselib/mtx.cpp:
+game/maximum/GSAPI/baselib/mtx_base.cpp:
 	.text       start:0x80254994 end:0x80256624
 	.data       start:0x803F9DF8 end:0x803F9E28
 	.bss        start:0x80493110 end:0x80493168
@@ -3286,7 +3286,7 @@ game/maximum/GSAPI/baselib/robj.cpp:
 	.sbss       start:0x804CC830 end:0x804CC838
 	.sdata2     start:0x804CFEF0 end:0x804CFF58
 
-game/maximum/GSAPI/baselib/shadow.cpp:
+game/maximum/GSAPI/baselib/shadow_base.cpp:
 	.text       start:0x8025BFCC end:0x8025D35C
 	.rodata     start:0x802F71E0 end:0x802F72B0
 	.data       start:0x803F9F70 end:0x803FA060
@@ -3671,7 +3671,7 @@ game/pxdvs/GSAPI/GSgfxM/layerConfig.cpp:
 	.text       start:0x802B4CFC end:0x802B52B0
 	.bss        start:0x804C80D0 end:0x804C80F0
 
-game/pxdvs/GSAPI/GSgfxM/light.cpp:
+game/pxdvs/GSAPI/GSgfxM/light_gfxm.cpp:
 	.text       start:0x802B52B0 end:0x802B5668
 	.sdata2     start:0x804D08B0 end:0x804D08C0
 
