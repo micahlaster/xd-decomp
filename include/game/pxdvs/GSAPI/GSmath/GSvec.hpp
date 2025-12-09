@@ -1,7 +1,7 @@
 #ifndef GS_VEC_H
 #define GS_VEC_H
 
-#include <types.h>
+#include <global.h>
 
 struct GSvec {
   f32 param1;

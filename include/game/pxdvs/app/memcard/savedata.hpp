@@ -1,7 +1,7 @@
 #ifndef SAVEDATA_H
 #define SAVEDATA_H
 
-#include <types.h>
+#include <global.h>
 
 struct savedata {};
 
