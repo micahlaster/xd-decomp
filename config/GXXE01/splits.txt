@@ -20,6 +20,96 @@ game/character.cpp:
 game/dbgMenuCamera.cpp:
 	.text       start:0x800056A4 end:0x80005798
 
+game/dbgMenuFight.cpp:
+	.text       start:0x80005798 end:0x8000804C
+
+game/dbgMenuFlag.cpp:
+	.text       start:0x8000804C end:0x80008998
+
+game/dbgMenuPokemon.cpp:
+	.text       start:0x80008998 end:0x8000AD7C
+
+game/dbgMenuHero.cpp:
+	.text       start:0x8000AD7C end:0x8000B15C
+
+game/dbgMenuFloor.cpp:
+	.text       start:0x8000B15C end:0x8000B344
+
+game/dbgMenuGSgfx.cpp:
+	.text       start:0x8000B344 end:0x8000B3F8
+
+game/dbgMenuGSvtr.cpp:
+	.text       start:0x8000B3F8 end:0x8000B620
+
+game/dbgMenuMemcard.cpp:
+	.text       start:0x8000B620 end:0x8000BAE4
+
+game/dbgMenuMsg.cpp:
+	.text       start:0x8000BAE4 end:0x8000BC28
+
+game/dbgMenuPeople.cpp:
+	.text       start:0x8000BC28 end:0x8000BD20
+
+game/dbgMenuSoundTest.cpp:
+	.text       start:0x8000BD20 end:0x8000C0C4
+
+game/dbgMenuWazaViewer.cpp:
+	.text       start:0x8000C0C4 end:0x8000C0F4
+
+game/dbgMenuWaza.cpp:
+	.text       start:0x8000C0F4 end:0x8000C284
+
+game/menuTool.cpp:
+	.text       start:0x8000C284 end:0x8000C298
+
+game/menuColosseumBattleConnection.cpp:
+	.text       start:0x8000C298 end:0x8000C2C0
+
+game/dbgMenuFightTrainer.cpp:
+	.text       start:0x8000C2C0 end:0x8000DBAC
+
+game/dbgMenuFightWaza.cpp:
+	.text       start:0x8000DBAC end:0x8000DEE8
+
+game/dbgMenuLog.cpp:
+	.text       start:0x8000DEE8 end:0x8000E154
+
+game/dbgMenuFieldCamera.cpp:
+	.text       start:0x8000E154 end:0x8000E1F4
+
+game/dbgMenuItemCreate.cpp:
+	.text       start:0x8000E1F4 end:0x8000E53C
+
+game/dbgMenuRelive.cpp:
+	.text       start:0x8000E53C end:0x8000E5AC
+
+game/menuPokeCoupon.cpp:
+	.text       start:0x8000E5AC end:0x8000E64C
+
+game/dbgMenuToolBattle.cpp:
+	.text       start:0x8000E64C end:0x8000E71C
+
+game/menuKeyDisc.cpp:
+	.text       start:0x8000E71C end:0x8000E74C
+
+PowerPC_EABI_Support/Runtime/Src/global_destructor_chain.c:
+	.text       start:0x8000E74C end:0x8000E794
+
+game/pause.cpp:
+	.text       start:0x8000E794 end:0x8000E8CC
+
+game/time.cpp:
+	.text       start:0x8000E8CC end:0x8000E97C
+
+game/menuPocketBattleDisk.cpp:
+	.text       start:0x8000E97C end:0x8000F5E8
+
+game/main.cpp:
+	.text       start:0x8000F5E8 end:0x8000F820
+
+game/sysvars.cpp:
+	.text       start:0x8000F820 end:0x8000FDA8
+
 dolphin/base/PPCArch.c:
 	.text       start:0x800A9574 end:0x800A96AC
 
