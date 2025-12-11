@@ -3,8 +3,6 @@
 
 #include <dolphin/types.h>
 
-#ifndef __cplusplus
-typedef unsigned short wchar_t;
-#endif
+typedef unsigned short char16;
 
 #endif

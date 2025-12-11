@@ -9,8 +9,8 @@ class Item;
 
 class Hero {
 private:
-  u16 heroName[5]; // 0x0
-  u8 x00b[34];
+  char16 heroName[11];              // 0x0
+  char16 heroNameCopy[11];          // heroName copy (need to verify), 0x16
   u32 heroRnd;                   // OT ID, 0x2c
   Pokemon partyPokemon[6];       // 0x30
   Item *normalItem[30];          // Items, 0x4c8
