@@ -1,4 +1,6 @@
 CompileFlags:
   Add: [
-    "-fdeclspec"
+    "-fdeclspec",
+    "-Iinclude/libc",
+    "-Iextern/musyx/include"
   ]

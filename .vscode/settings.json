@@ -20,6 +20,11 @@
     "*.pch++": "cpp",
     ".clangd": "yaml"
   },
+  "clangd.arguments": [
+      "--function-arg-placeholders=0",
+      "-header-insertion=never",
+  ],
+  "clangd.detectExtensionConflicts": true,
   // Disable C/C++ IntelliSense, use clangd instead
   "C_Cpp.intelliSenseEngine": "disabled",
 }
