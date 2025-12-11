@@ -1,7 +1,8 @@
 # Contributing to TeamOrre – Pokémon XD Decompilation
 
-Welcome to the TeamOrre Pokémon XD decomp effort.  
+Welcome to the TeamOrre Pokémon XD decomp effort.
 The project is in early setup, so the most important goal right now is keeping the repository organized and consistent as we prepare the toolchain, symbols, and splits.
+This document is subject to change as the decomp progresses and we establish our workflow.
 
 This document explains how to contribute safely and effectively.
 
@@ -17,7 +18,7 @@ This document explains how to contribute safely and effectively.
 ## Repository Structure
 
 ```
-src/        → Decompiled C/C++ code (empty for now)
+src/        → Decompiled C/C++ code
 include/    → Reconstructed headers
 config/     → symbols.txt, splits.txt, config yaml
 tools/      → Utility scripts (extractors, converters, etc.)
@@ -31,18 +32,18 @@ Do not place game asset dumps, files from extracted ISOs, or copyrighted data he
 These correspond to GitHub Teams inside the organization:
 
 ### xd-decomp-core
-Core XD developers.  
+Core XD developers.
 Can push feature branches, review and merge PRs, and maintain repo stability.
 
 ### colo-decomp-core
 Colosseum-focused developers who may open PRs here.
 
 ### research-contributors
-Work in the `orre-research` repo (symbol maps, Ghidra notes, documentation).  
+Work in the `orre-research` repo (symbol maps, Ghidra notes, documentation).
 Read-only access here.
 
 ### tool-contributors
-Primarily develop utilities.  
+Primarily develop utilities.
 Open PRs here but do not push directly.
 
 ## General Contribution Rules
@@ -59,22 +60,15 @@ Examples of good PRs:
 - “Initial split regions for .text segment”
 - “Add tool to dump REL headers”
 
-### 3. Do not add mixed C and ASM for the same function
-A function must be either:
-- fully in `asm/`, or  
-- fully decompiled in `src/`
-
-Never both at once.
-
-### 4. Naming Conventions
+### 3. Naming Conventions
 - Use names from symbol maps when available.
 - Otherwise, use clear, descriptive technical names.
 - Avoid lore names unless confirmed by evidence.
 
-### 5. Legal Boundaries
-- Do not commit ROMs or ISOs  
-- Do not paste copyrighted data  
-- Do not commit extracted copyrighted tables or assets  
+### 4. Legal Boundaries
+- Do not commit ROMs or ISOs
+- Do not paste copyrighted data
+- Do not commit extracted copyrighted tables or assets
 
 Clean-room reconstruction only.
 
@@ -83,15 +77,14 @@ Clean-room reconstruction only.
 Add new symbols to `config/GAMEID/symbols.txt`.
 
 Guidelines:
-- Keep entries clean, sorted, and consistently formatted  
-- Document where the symbol came from (demo leak, retail alignment, Ghidra, etc.)  
-- Avoid adding speculative names without evidence  
+- Keep entries consistently formatted
+- Document where the symbol came from (demo leak, retail alignment, Ghidra, etc.)
+- Avoid adding speculative names without evidence
 
 Example:
 ```
-# From retail alignment
-0x80234560 OSReport
-0x80004200 main
+OSGetResetButtonState = .text:0x800AE6F8; // type:function size:0x298 scope:global align:4
+WriteSramCallback = .text:0x800AE990; // type:function size:0x60 scope:local align:4
 ```
 
 ## Working on Splits
@@ -99,19 +92,19 @@ Example:
 Splits go into `config/GAMEID/splits.txt`, defining DOL/REL segment boundaries.
 
 Guidelines:
-- Keep the file clean and documented  
-- Note the method used (Ghidra section offsets, comparison with PokeORRE, etc.)  
-- Keep placeholder splits until confirmed  
+- Keep the file clean and documented
+- Note the method used (Ghidra section offsets, comparison with PokeORRE, etc.)
+- Keep placeholder splits until confirmed
 
 ## Tools
 
 Scripts should go into `tools/` or the `orre-tools` repository depending on size.
 
 Tool guidelines:
-- Prefer small, single-purpose tools  
-- Document how to use them  
-- Avoid tools requiring proprietary software  
-- Leave clear instructions for setup if needed  
+- Prefer small, single-purpose tools
+- Document how to use them
+- Avoid tools requiring proprietary software
+- Leave clear instructions for setup if needed
 
 ## Getting Started
 
