@@ -396,7 +396,7 @@ config.libs = [
             Object(NonMatching, "dolphin/os/OSThread.c"),
             Object(MatchingFor("GXXE01", "NXXJ01"), "dolphin/os/OSTime.c"),
             Object(MatchingFor("GXXE01", "NXXJ01"), "dolphin/os/__start.c"),
-            Object(NonMatching, "dolphin/os/__ppc_eabi_init.cpp"),
+            Object(MatchingFor("GXXE01", "NXXJ01"), "dolphin/os/__ppc_eabi_init.c"),
         ],
     ),
     DolphinLib(

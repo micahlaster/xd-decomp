@@ -835,7 +835,7 @@ dolphin/os/__start.c:
 	.init       start:0x80003100 end:0x80003400
 	.sbss       start:0x804CB928 end:0x804CB930
 
-dolphin/os/__ppc_eabi_init.cpp:
+dolphin/os/__ppc_eabi_init.c:
 	.init       start:0x80003400 end:0x80003458
 	.text       start:0x800B0E4C end:0x800B0EE0
 
