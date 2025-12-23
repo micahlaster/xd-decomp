@@ -266,12 +266,16 @@ cflags_dolphin = [
     *cflags_base,
     "-char unsigned",
     "-sym on",
+    "-fp_contract off",
     "-warn pragmas",
     "-requireprotos",
     "-D__GEKKO__",
     "-i include/libc",
     "-ir src/dolphin",
 ]
+
+cflags_dolphin_exibios = cflags_dolphin[:]
+cflags_dolphin_exibios.remove("-O4,p")  # need to remove this flag for EXIBios.c
 
 cflags_musyx = [
     "-proc gekko",
@@ -530,10 +534,18 @@ config.libs = [
     DolphinLib(
         "exi",
         [
-            Object(NonMatching, "dolphin/exi/EXIBios.c", extra_cflags=["-O3,p"]),
             Object(MatchingFor("GXXE01", "NXXJ01"), "dolphin/exi/EXIUart.c"),
         ],
     ),
+    {
+        "lib": "Dolphin EXIBios",
+        "mw_version": "GC/1.2.5n",
+        "cflags": cflags_dolphin_exibios,
+        "progress_category": "sdk",
+        "objects": [
+            Object(NonMatching, "dolphin/exi/EXIBios.c", extra_cflags=["-O3,p"]),
+        ],
+    },
     DolphinLib(
         "si",
         [
