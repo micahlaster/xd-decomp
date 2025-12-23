@@ -1520,8 +1520,47 @@ musyx/runtime/StdReverb/reverb_fx.c:
 musyx/runtime/StdReverb/reverb.c:
 	.text       start:0x801822B0 end:0x80183140
 
+game/pxdvs/app/sound/sound.cpp:
+	.text       start:0x80183140 end:0x80183A58
+
+game/pxdvs/GSAPI/GSsnd/GSsnd.cpp:
+	.text       start:0x80183A58 end:0x80186BC0
+
+game/pxdvs/GSAPI/GSsnd/sndStream.cpp:
+	.text       start:0x80186BC0 end:0x801879A4
+
+game/pxdvs/GSAPI/GSdvd/GSdvd.cpp:
+	.text       start:0x801879A4 end:0x8018838C
+
+game/pxdvs/GSAPI/GSfilter/GSfilter.cpp:
+	.text       start:0x8018838C end:0x80188B50
+
+game/maximum/GSAPI/particle/pslist.cpp:
+	.text       start:0x80188B50 end:0x80189250
+
+game/maximum/GSAPI/particle/particle.cpp:
+	.text       start:0x80189250 end:0x8018A868
+
+game/maximum/GSAPI/particle/psappsrt.cpp:
+	.text       start:0x8018A868 end:0x8018ADB8
+
+game/maximum/GSAPI/particle/psdisp.cpp:
+	.text       start:0x8018ADB8 end:0x8018F0FC
+
+game/maximum/GSAPI/particle/psdisptev.cpp:
+	.text       start:0x8018F0FC end:0x8018F910
+
+game/maximum/GSAPI/particle/psinterpret.cpp:
+	.text       start:0x8018F910 end:0x80193B94
+
+game/maximum/GSAPI/particle/generator.cpp:
+	.text       start:0x80193B94 end:0x801964F4
+
+game/pxdvs/GSAPI/GSspline/GSspline.cpp:
+	.text       start:0x801964F4 end:0x80196A14
+
 game/pxdvs/app/camera/camera.cpp:
-	.text       start:0x80196A14 end:0x8019AFFC
+	.text       start:0x80196A14 end:0x8019B01C
 	.ctors      start:0x802E9FD4 end:0x802E9FD8
 
 game/pxdvs/app/memcard/memcard.cpp:
