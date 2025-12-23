@@ -110,6 +110,259 @@ game/main.cpp:
 game/sysvars.cpp:
 	.text       start:0x8000F820 end:0x8000FDA8
 
+game/flashmenuTest.cpp:
+	.text       start:0x8000FDA8 end:0x8000FFF0
+
+game/menuWorldMapMX.cpp:
+	.text       start:0x8000FFF0 end:0x800136C8
+
+game/menuItemMX.cpp:
+	.text       start:0x800136C8 end:0x800136C8
+
+game/menuPokemon.cpp:
+	.text       start:0x800136C8 end:0x80016178
+
+game/menuFightStatus.cpp:
+	.text       start:0x80016178 end:0x800178FC
+
+game/menuFight.cpp:
+	.text       start:0x800178FC end:0x8001EC10
+
+game/menuPocketTool.cpp:
+	.text       start:0x8001EC10 end:0x80022080
+	.text       start:0x80022080 end:0x800221B0
+
+game/menuPocket.cpp:
+	.text       start:0x800221B0 end:0x80026898
+
+game/gbaPokemon.cpp:
+	.text       start:0x80026898 end:0x80027E84
+
+game/gbaCommand.cpp:
+	.text       start:0x80027E84 end:0x80028F98
+
+game/agbCommunication.cpp:
+	.text       start:0x80028F98 end:0x8002D8C0
+
+game/floorRead.cpp:
+	.text       start:0x8002D8C0 end:0x8002F1F0
+	.text       start:0x8002F1F0 end:0x8002F308
+	.ctors      start:0x802E9F84 end:0x802E9F88
+
+game/menuTop.cpp:
+	.text       start:0x8002F308 end:0x80030330
+	.ctors      start:0x802E9F88 end:0x802E9F8C
+
+game/menuNameEntry.cpp:
+	.text       start:0x80030330 end:0x80033440
+	.ctors      start:0x802E9F8C end:0x802E9F90
+
+game/menuPokemonStatus.cpp:
+	.text       start:0x80033440 end:0x80037A48
+	.ctors      start:0x802E9F90 end:0x802E9F94
+
+game/menuItemTool.cpp:
+	.text       start:0x80037A48 end:0x80037A48
+
+game/menuSaveLoad.cpp:
+	.text       start:0x80037A48 end:0x80038104
+
+game/menuPda.cpp:
+	.text       start:0x80038104 end:0x8003AA1C
+
+game/menuReliveHall.cpp:
+	.text       start:0x8003AA1C end:0x80041C3C
+
+game/menuPdaSearcher.cpp:
+	.text       start:0x80041C3C end:0x80042CD0
+
+game/menuPdaMailXD.cpp:
+	.text       start:0x80042CD0 end:0x80043304
+
+game/menuPdaMailList.XD.cpp:
+	.text       start:0x80043304 end:0x800443E4
+
+game/menuColosseumBattle.cpp:
+	.text       start:0x800443E4 end:0x80046598
+	.ctors      start:0x802E9F94 end:0x802E9F98
+
+game/menuCB_BattleResult.cpp:
+	.text       start:0x80046598 end:0x80046D5C
+
+game/menuCB_BattleStart.cpp:
+	.text       start:0x80046D5C end:0x800477F8
+	.ctors      start:0x802E9F98 end:0x802E9F9C
+
+game/menuCB_Bios.cpp:
+	.text       start:0x800477F8 end:0x80049DA4
+
+game/menuCB_Common.cpp:
+	.text       start:0x80049DA4 end:0x8004A090
+
+game/menuCB_Debug.cpp:
+	.text       start:0x8004A090 end:0x8004A0A8
+
+game/menuCB_ItemList.cpp:
+	.text       start:0x8004A0A8 end:0x8004A0A8
+
+game/menuCB_PokemonEntry.cpp:
+	.text       start:0x8004A0A8 end:0x8004B7B4
+
+game/menuCB_Rule.cpp:
+	.text       start:0x8004B7B4 end:0x8004D394
+
+game/menuCB_Battle.cpp:
+	.text       start:0x8004D394 end:0x8004DB44
+
+game/menuToolBattle.cpp:
+	.text       start:0x8004DB44 end:0x8004E54C
+
+game/menuGBAC.cpp:
+	.text       start:0x8004E54C end:0x8004FB68
+
+game/menuPdaDPMonitor.cpp:
+	.text       start:0x8004FB68 end:0x80050A1C
+
+game/menuPdaDPMonitorList.cpp:
+	.text       start:0x80050A1C end:0x80052CBC
+
+game/menuPdaSub.cpp:
+	.text       start:0x80052CBC end:0x800531DC
+
+game/menuPdaMemoXD.cpp:
+	.text       start:0x800531DC end:0x80055428
+
+game/menuPdaMemoListXD.cpp:
+	.text       start:0x80055428 end:0x80056FF8
+
+game/menuPcBoxPokemon.cpp:
+	.text       start:0x80056FF8 end:0x8005B3D8
+
+game/menuField.cpp:
+	.text       start:0x8005B3D8 end:0x8005C060
+
+game/pokecolo.cpp:
+	.text       start:0x8005C060 end:0x8005CC74
+
+game/menuScript.cpp:
+	.text       start:0x8005CC74 end:0x8005F524
+
+game/menuReliveMeter.cpp:
+	.text       start:0x8005F524 end:0x800605B8
+
+game/menuShop.cpp:
+	.text       start:0x800605B8 end:0x80063560
+
+game/menuPocketCologne.cpp:
+	.text       start:0x80063560 end:0x80063D1C
+
+game/menuItemPda.cpp:
+	.text       start:0x80063D1C end:0x80063D1C
+
+game/menuSub.cpp:
+	.text       start:0x80063D1C end:0x80065854
+
+game/menuPdaMemoWaveXD.cpp:
+	.text       start:0x80065854 end:0x800665F4
+
+game/menuInterrupt.cpp:
+	.text       start:0x800665F4 end:0x80066C48
+
+game/dbgMenuSub.cpp:
+	.text       start:0x80066C48 end:0x80068264
+
+game/menuPcBoxNew.cpp:
+	.text       start:0x80068264 end:0x80069300
+	.ctors      start:0x802E9F9C end:0x802E9FA0
+
+game/menuPcBoxDouguNew.cpp:
+	.text       start:0x80069300 end:0x8006A854
+
+game/dbgMenuMenu.cpp:
+	.text       start:0x8006A854 end:0x8006C184
+
+game/pokeconv.cpp:
+	.text       start:0x8006C184 end:0x8006C320
+
+game/wazaconv.cpp:
+	.text       start:0x8006C320 end:0x8006C504
+
+game/menuCB_externDB.cpp:
+	.text       start:0x8006C504 end:0x8007C870
+
+game/menuDataBios.cpp:
+	.text       start:0x8007C870 end:0x8007CD64
+
+game/menuPanel.cpp:
+	.text       start:0x8007CD64 end:0x8007E350
+
+game/floorLayerConfig.cpp:
+	.text       start:0x8007E350 end:0x8007E5AC
+	.ctors      start:0x802E9FA0 end:0x802E9FA4
+
+game/menuCB_Sub1.cpp:
+	.text       start:0x8007E5AC end:0x80085FB8
+
+game/menuLogoDemo.cpp:
+	.text       start:0x80085FB8 end:0x80087B14
+
+game/menuHologram.cpp:
+	.text       start:0x80087B14 end:0x8008A160
+
+game/menuBingo.cpp:
+	.text       start:0x8008A160 end:0x80098108
+
+game/menuReliveHallTutorial.cpp:
+	.text       start:0x80098108 end:0x80098C44
+
+game/menuPokemonChange.cpp:
+	.text       start:0x80098C44 end:0x8009D4E8
+	.ctors      start:0x802E9FA4 end:0x802E9FA8
+
+game/menuWorldMapMoveDemo.cpp:
+	.text       start:0x8009D4E8 end:0x8009D6B8
+
+game/menuWorldMapModel.cpp:
+	.text       start:0x8009D6B8 end:0x8009EC18
+
+game/menuBattleDisk.cpp:
+	.text       start:0x8009EC18 end:0x800A1494
+	.ctors      start:0x802E9FA8 end:0x802E9FAC
+
+game/menuOrreColosseum.cpp:
+	.text       start:0x800A1494 end:0x800A3150
+	.ctors      start:0x802E9FAC end:0x802E9FB0
+
+game/menuTitle.cpp:
+	.text       start:0x800A3150 end:0x800A423C
+
+game/menuUseItem.cpp:
+	.text       start:0x800A423C end:0x800A6138
+
+game/menuMewWaza.cpp:
+	.text       start:0x800A6138 end:0x800A63DC
+
+game/menuMoveDemo.cpp:
+	.text       start:0x800A63DC end:0x800A6D54
+
+game/menuTitleOption.cpp:
+	.text       start:0x800A6D54 end:0x800A7614
+
+game/pxdvs/GSAPI/GSmemman/GSmemman.cpp:
+	.text       start:0x800A7614 end:0x800A7BF8
+
+game/pxdvs/GSAPI/GSmemman/memOverride.cpp:
+	.text       start:0x800A7BF8 end:0x800A7CD8
+
+game/pxdvs/GSAPI/GSmemman/OSAlloc.cpp:
+	.text       start:0x800A7CD8 end:0x800A8E7C
+
+game/pxdvs/GSAPI/GSmemman/sysdolmem.cpp:
+	.text       start:0x800A8E7C end:0x800A9118
+
+game/pxdvs/GSAPI/GSmemman/poolAlloc.cpp:
+	.text       start:0x800A9118 end:0x800A9574
+
 dolphin/base/PPCArch.c:
 	.text       start:0x800A9574 end:0x800A96AC
 
@@ -481,6 +734,98 @@ dolphin/perf/perfdraw.c:
 	.sbss       start:0x804EAE30 end:0x804EAE48
 	.sdata2     start:0x804ECCD0 end:0x804ECD20
 
+runtime_libs/debugger/embedded/MetroTRK/Portable/mainloop.c:
+	.text       start:0x800D39D0 end:0x800D3AC8
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/nubevent.c:
+	.text       start:0x800D3AC8 end:0x800D3CF0
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/nubinit.c:
+	.text       start:0x800D3CF0 end:0x800D3E88
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/msg.c:
+	.text       start:0x800D3E88 end:0x800D3ECC
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/msgbuf.c:
+	.text       start:0x800D3ECC end:0x800D4708
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/serpoll.c:
+	.text       start:0x800D4708 end:0x800D49C0
+
+runtime_libs/debugger/embedded/MetroTRK/Os/dolphin/usr_put.c:
+	.text       start:0x800D49C0 end:0x800D4A4C
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/dispatch.c:
+	.text       start:0x800D4A4C end:0x800D4BC4
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/msghndlr.c:
+	.text       start:0x800D4BC4 end:0x800D5C34
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/support.c:
+	.text       start:0x800D5C34 end:0x800D6348
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/mutex_TRK.c:
+	.text       start:0x800D6348 end:0x800D6360
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/notify.c:
+	.text       start:0x800D6360 end:0x800D63F8
+
+runtime_libs/debugger/embedded/MetroTRK/Processor/ppc/Generic/flush_cache.c:
+	.text       start:0x800D63F8 end:0x800D6430
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/mem_TRK.c:
+	.init       start:0x80003458 end:0x800034AC
+	.text       start:0x800D6430 end:0x800D64E8
+
+runtime_libs/debugger/embedded/MetroTRK/Processor/ppc/Generic/targimpl.c:
+	.text       start:0x800D64E8 end:0x800D8080
+
+runtime_libs/debugger/embedded/MetroTRK/Processor/ppc/Export/targsupp.s:
+	.text       start:0x800D8080 end:0x800D80A0
+
+runtime_libs/debugger/embedded/MetroTRK/Processor/ppc/Generic/mpc_7xx_603e.c:
+	.text       start:0x800D80A0 end:0x800D8410
+
+runtime_libs/debugger/embedded/MetroTRK/Processor/ppc/Generic/__exception.s:
+	.init       start:0x800034AC end:0x800053E0
+
+runtime_libs/debugger/embedded/MetroTRK/Os/dolphin/dolphin_trk.c:
+	.init       start:0x800053E0 end:0x8000540C
+	.text       start:0x800D8410 end:0x800D8A4C
+
+runtime_libs/debugger/embedded/MetroTRK/Portable/main_TRK.c:
+	.text       start:0x800D8A4C end:0x800D8AA4
+
+runtime_libs/debugger/embedded/MetroTRK/Os/dolphin/dolphin_trk_glue.c:
+	.text       start:0x800D8AA4 end:0x800D8FFC
+
+runtime_libs/debugger/embedded/MetroTRK/Os/dolphin/targcont.c:
+	.text       start:0x800D8FFC end:0x800D9030
+
+runtime_libs/debugger/embedded/MetroTRK/Os/dolphin/target_options.c:
+	.text       start:0x800D9030 end:0x800D904C
+
+runtime_libs/debugger/embedded/MetroTRK/Export/mslsupp.c:
+	.text       start:0x800D904C end:0x800D9248
+
+runtime_libs/debugger/embedded/MetroTRK/Os/dolphin/UDP_Stubs.c:
+	.text       start:0x800D9248 end:0x800D9290
+
+runtime_libs/gamedev/cust_connection/cc/exi2/GCN/EXI2_DDH_GCN/main_ddh.c:
+	.text       start:0x800D9290 end:0x800D95D4
+
+runtime_libs/gamedev/cust_connection/utils/common/CircleBuffer.c:
+	.text       start:0x800D95D4 end:0x800D983C
+
+runtime_libs/gamedev/cust_connection/cc/exi2/GCN/EXI2_GDEV_GCN/main_gdev.c:
+	.text       start:0x800D983C end:0x800D9B88
+
+runtime_libs/gamedev/cust_connection/utils/common/MWTrace.c:
+	.text       start:0x800D9B88 end:0x800D9BD8
+
+runtime_libs/gamedev/cust_connection/utils/gc/MWCriticalSection_gc.c:
+	.text       start:0x800D9BD8 end:0x800D9C30
+
 PowerPC_EABI_Support/Runtime/Src/__va_arg.c:
 	.text       start:0x800D9C30 end:0x800D9CF8
 
@@ -509,6 +854,174 @@ PowerPC_EABI_Support/Runtime/Src/Gecko_ExceptionPPC.cp:
 PowerPC_EABI_Support/Runtime/Src/GCN_mem_alloc.c:
 	.text       start:0x800DA964 end:0x800DAA1C
 	.rodata     start:0x802ECA30 end:0x802ECAA8
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/abort_exit.c:
+	.text       start:0x800DAA1C end:0x800DAB0C
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/alloc.c:
+	.text       start:0x800DAB0C end:0x800DAFC0
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/ansi_files.c:
+	.text       start:0x800DAFC0 end:0x800DB0D8
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Src/ansi_fp.c:
+	.text       start:0x800DB0D8 end:0x800DE6B4
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/arith.c:
+	.text       start:0x800DE6B4 end:0x800DE6C4
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/buffer_io.c:
+	.text       start:0x800DE6C4 end:0x800DE7BC
+
+PowerPC_EABI_Support/MSL_C/PPC_EABI/Src/critical_regions.gamecube.c:
+	.text       start:0x800DE7BC end:0x800DE7C8
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/ctype.c:
+	.text       start:0x800DE7C8 end:0x800DE7EC
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/direct_io.c:
+	.text       start:0x800DE7EC end:0x800DEB74
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/file_io.c:
+	.text       start:0x800DEB74 end:0x800DEE68
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/FILE_POS.c:
+	.text       start:0x800DEE68 end:0x800DF228
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/mbstring.c:
+	.text       start:0x800DF228 end:0x800DF340
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/mem.c:
+	.text       start:0x800DF340 end:0x800DF4B0
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/mem_funcs.c:
+	.text       start:0x800DF4B0 end:0x800DF780
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/misc_io.c:
+	.text       start:0x800DF780 end:0x800DF790
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/printf.c:
+	.text       start:0x800DF790 end:0x800E1890
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/qsort.c:
+	.text       start:0x800E1890 end:0x800E19FC
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/scanf.c:
+	.text       start:0x800E19FC end:0x800E1A8C
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/string.c:
+	.text       start:0x800E1A8C end:0x800E1D68
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/strtold.c:
+	.text       start:0x800E1D68 end:0x800E2E00
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/strtoul.c:
+	.text       start:0x800E2E00 end:0x800E3238
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/wchar_io.c:
+	.text       start:0x800E3238 end:0x800E32C0
+
+PowerPC_EABI_Support/MSL_C/PPC_EABI/Src/uart_console_io_gcn.c:
+	.text       start:0x800E32C0 end:0x800E3390
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_acos.c:
+	.text       start:0x800E3390 end:0x800E35CC
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_asin.c:
+	.text       start:0x800E35CC end:0x800E3804
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_atan2.c:
+	.text       start:0x800E3804 end:0x800E3A94
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_exp.c:
+	.text       start:0x800E3A94 end:0x800E3CB8
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_fmod.c:
+	.text       start:0x800E3CB8 end:0x800E3FF4
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_log.c:
+	.text       start:0x800E3FF4 end:0x800E4270
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_pow.c:
+	.text       start:0x800E4270 end:0x800E4AA0
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_rem_pio2.c:
+	.text       start:0x800E4AA0 end:0x800E4E40
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/k_cos.c:
+	.text       start:0x800E4E40 end:0x800E4F34
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/k_rem_pio2.c:
+	.text       start:0x800E4F34 end:0x800E5D88
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/k_sin.c:
+	.text       start:0x800E5D88 end:0x800E5E28
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/k_tan.c:
+	.text       start:0x800E5E28 end:0x800E603C
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_atan.c:
+	.text       start:0x800E603C end:0x800E6254
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_ceil.c:
+	.text       start:0x800E6254 end:0x800E6398
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_copysign.c:
+	.text       start:0x800E6398 end:0x800E63C0
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_cos.c:
+	.text       start:0x800E63C0 end:0x800E6494
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_floor.c:
+	.text       start:0x800E6494 end:0x800E65DC
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_frexp.c:
+	.text       start:0x800E65DC end:0x800E6668
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_ldexp.c:
+	.text       start:0x800E6668 end:0x800E682C
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_modf.c:
+	.text       start:0x800E682C end:0x800E6928
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_sin.c:
+	.text       start:0x800E6928 end:0x800E6A00
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_tan.c:
+	.text       start:0x800E6A00 end:0x800E6A78
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/w_acos.c:
+	.text       start:0x800E6A78 end:0x800E6A98
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/w_asin.c:
+	.text       start:0x800E6A98 end:0x800E6AB8
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/w_atan2.c:
+	.text       start:0x800E6AB8 end:0x800E6AD8
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/w_exp.c:
+	.text       start:0x800E6AD8 end:0x800E6AF8
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/w_fmod.c:
+	.text       start:0x800E6AF8 end:0x800E6B18
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/w_log.c:
+	.text       start:0x800E6B18 end:0x800E6B38
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/w_pow.c:
+	.text       start:0x800E6B38 end:0x800E6B58
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_sqrt.c:
+	.text       start:0x800E6B58 end:0x800E6D7C
+
+PowerPC_EABI_Support/MSL_C/PPC_EABI/Src/math_ppc.c:
+	.text       start:0x800E6D7C end:0x800E6F5C
+
+PowerPC_EABI_Support/MSL_C/MSL_Common_Embedded/Math/Double_precision/w_sqrt.c:
+	.text       start:0x800E6F5C end:0x800E6F7C
+
+PowerPC_EABI_Support/MSL_C/MSL_Common/Src/extras.c:
+	.text       start:0x800E6F7C end:0x800E7008
 
 dolphin/amcstubs/AmcExi2Stubs.c:
 	.text       start:0x800E7008 end:0x800E7038
@@ -543,6 +1056,469 @@ dolphin/si/SISamplingRate.c:
 	.text       start:0x800EB2B4 end:0x800EB3BC
 	.data       start:0x803D4EE0 end:0x803D4F78
 	.sbss       start:0x804EAED0 end:0x804EAED8
+
+game/pxdvs/GSAPI/GScamera/GScamera.cpp:
+	.text       start:0x800EB3BC end:0x800EDC50
+
+game/pxdvs/GSAPI/GSlight/GSlight.cpp:
+	.text       start:0x800EDC50 end:0x800EEC3C
+
+game/pxdvs/GSAPI/GSmaterial/GSmaterial.cpp:
+	.text       start:0x800EEC3C end:0x800EF95C
+
+game/pxdvs/GSAPI/GSmath/GSmtx.cpp:
+	.text       start:0x800EF95C end:0x800EF9F8
+	.ctors      start:0x802E9FB0 end:0x802E9FB4
+
+game/pxdvs/GSAPI/GSmath/GSmtx44.cpp:
+	.text       start:0x800EF9F8 end:0x800EFA38
+
+game/pxdvs/GSAPI/GSmath/GSquat.cpp:
+	.text       start:0x800EFA38 end:0x800EFA58
+	.ctors      start:0x802E9FB4 end:0x802E9FB8
+
+game/pxdvs/GSAPI/GSmath/init.cpp:
+	.text       start:0x800EFA58 end:0x800EFAC0
+
+game/pxdvs/GSAPI/GSmath/GSbezier.cpp:
+	.text       start:0x800EFAC0 end:0x800EFBE8
+
+game/pxdvs/GSAPI/GSmath/GSlerp.cpp:
+	.text       start:0x800EFBE8 end:0x800EFCE8
+
+game/pxdvs/GSAPI/GSmath/GSutil.cpp:
+	.text       start:0x800EFCE8 end:0x800EFDA0
+
+game/pxdvs/GSAPI/GSmath/GSvec.cpp:
+	.text       start:0x800EFDA0 end:0x800EFFCC
+	.ctors      start:0x802E9FB8 end:0x802E9FBC
+
+game/pxdvs/GSAPI/GSmodel/effects.cpp:
+	.text       start:0x800EFFCC end:0x800F0EE0
+
+game/pxdvs/GSAPI/GSmodel/blend.cpp:
+	.text       start:0x800F0EE0 end:0x800F1BD0
+
+game/pxdvs/GSAPI/GSmodel/bound.cpp:
+	.text       start:0x800F1BD0 end:0x800F1E74
+
+game/pxdvs/GSAPI/GSmodel/animation.cpp:
+	.text       start:0x800F1E74 end:0x800F6E30
+
+game/pxdvs/GSAPI/GSmodel/GSmodel.cpp:
+	.text       start:0x800F6E30 end:0x800F8998
+
+game/pxdvs/GSAPI/GSmodel/GSmodelExt.cpp:
+	.text       start:0x800F8998 end:0x800FB3A4
+
+game/pxdvs/GSAPI/GSmodel/parse.cpp:
+	.text       start:0x800FB3A4 end:0x800FC8A8
+
+game/pxdvs/GSAPI/GSmodel/part.cpp:
+	.text       start:0x800FC8A8 end:0x800FC9D0
+
+game/pxdvs/GSAPI/GSmodel/save_state.cpp:
+	.text       start:0x800FC9D0 end:0x800FCD04
+
+game/pxdvs/GSAPI/GSmodel/shadow.cpp:
+	.text       start:0x800FCD04 end:0x800FEEE0
+
+game/pxdvs/GSAPI/GSmodel/bank.cpp:
+	.text       start:0x800FEEE0 end:0x800FF560
+
+game/pxdvs/GSAPI/GSpart/GSpart.cpp:
+	.text       start:0x800FF560 end:0x801010B4
+
+game/pxdvs/GSAPI/GSscratch/GSscratch.cpp:
+	.text       start:0x801010B4 end:0x801016D4
+
+game/pxdvs/GSAPI/GStexture/GStexture.cpp:
+	.text       start:0x801016D4 end:0x8010315C
+
+game/pxdvs/GSAPI/GSthread/GSthread.cpp:
+	.text       start:0x8010315C end:0x80103F70
+
+game/pxdvs/GSAPI/GSinput/GSinput.cpp:
+	.text       start:0x80103F70 end:0x80105840
+
+game/pxdvs/GSAPI/GSres/GSres.cpp:
+	.text       start:0x80105840 end:0x80105FEC
+
+game/pxdvs/GSAPI/GSmsg/GSmsg.cpp:
+	.text       start:0x80105FEC end:0x8010B458
+
+game/pxdvs/GSAPI/GSmsg/sprite.cpp:
+	.text       start:0x8010B458 end:0x8010BD24
+
+game/pxdvs/GSAPI/GSgapp/GSgapp.cpp:
+	.text       start:0x8010BD24 end:0x8010C320
+
+game/pxdvs/app/kaisuu/kaisuu.cpp:
+	.text       start:0x8010C320 end:0x8010C390
+
+game/pxdvs/app/kaisuu/kaisuuBios.cpp:
+	.text       start:0x8010C390 end:0x8010C3E4
+
+game/pxdvs/app/menu/winSprite.cpp:
+	.text       start:0x8010C3E4 end:0x8010E8C0
+
+game/pxdvs/app/menu/menu.cpp:
+	.text       start:0x8010E8C0 end:0x80110A04
+
+game/pxdvs/app/menu/menuFace.cpp:
+	.text       start:0x80110A04 end:0x80112114
+
+game/pxdvs/app/menu/menuFaceBios.cpp:
+	.text       start:0x80112114 end:0x801121E8
+
+game/pxdvs/app/menu/menuModel.cpp:
+	.text       start:0x801121E8 end:0x801145EC
+	.ctors      start:0x802E9FBC end:0x802E9FC0
+
+game/pxdvs/app/menu/menuOffScreen.cpp:
+	.text       start:0x801145EC end:0x80114D30
+
+game/pxdvs/app/menu/window.cpp:
+	.text       start:0x80114D30 end:0x80116A90
+
+game/pxdvs/app/menu/cursorBios.cpp:
+	.text       start:0x80116A90 end:0x80116BD4
+
+game/pxdvs/app/menu/winMsg.cpp:
+	.text       start:0x80116BD4 end:0x80117614
+
+game/pxdvs/app/zokusei/zokusei.cpp:
+	.text       start:0x80117614 end:0x80117A5C
+
+game/pxdvs/app/zokusei/zokuseiBios.cpp:
+	.text       start:0x80117A5C end:0x80117B6C
+
+game/pxdvs/GSAPI/GScolsys/GScolsys2.cpp:
+	.text       start:0x80117B6C end:0x801186C4
+	.ctors      start:0x802E9FC0 end:0x802E9FC4
+
+game/pxdvs/GSAPI/GScolsys/GScolsys2Draw.cpp:
+	.text       start:0x801186C4 end:0x8011908C
+
+game/pxdvs/GSAPI/GScolsys/GScolsys2Walk.cpp:
+	.text       start:0x8011908C end:0x801197D8
+
+game/pxdvs/GSAPI/GScolsys/GScolsys2Hit.cpp:
+	.text       start:0x801197D8 end:0x8011A75C
+
+game/pxdvs/GSAPI/GScolsys/GScolsys2Util.cpp:
+	.text       start:0x8011A75C end:0x8011ADA4
+
+game/pxdvs/GSAPI/GScolsys/GScolsys2Human.cpp:
+	.text       start:0x8011ADA4 end:0x8011BC34
+
+game/pxdvs/GSAPI/GScolsys/GScolsys2Thru.cpp:
+	.text       start:0x8011BC34 end:0x8011D49C
+
+game/pxdvs/GSAPI/GScolsys/GScolsys2Check.cpp:
+	.text       start:0x8011D49C end:0x8011D940
+
+game/pxdvs/GSAPI/GScolsys/GScolsys2Sun.cpp:
+	.text       start:0x8011D940 end:0x8011DDB0
+
+game/pxdvs/app/floor/floor.cpp:
+	.text       start:0x8011DDB0 end:0x80120FF4
+	.text       start:0x80120FF4 end:0x80121018
+	.text       start:0x80121018 end:0x801211B8
+	.text       start:0x801211B8 end:0x80121260
+	.ctors      start:0x802E9FC4 end:0x802E9FC8
+
+game/pxdvs/app/floor/floorEvent.cpp:
+	.text       start:0x80121260 end:0x801224E0
+
+game/pxdvs/app/floor/floorCharacterBios.cpp:
+	.text       start:0x801224E0 end:0x80122A34
+	.text       start:0x80122A34 end:0x80122A44
+
+game/pxdvs/app/floor/floorDataBios.cpp:
+	.text       start:0x80122A44 end:0x8012324C
+
+game/pxdvs/app/floor/floorFieldCamera.cpp:
+	.text       start:0x8012324C end:0x801243BC
+	.text       start:0x801243BC end:0x8012476C
+	.text       start:0x8012476C end:0x8012478C
+	.text       start:0x8012478C end:0x8012481C
+	.text       start:0x8012481C end:0x8012498C
+	.text       start:0x8012498C end:0x801249B0
+	.text       start:0x801249B0 end:0x80124A70
+
+game/pxdvs/app/floor/floorFieldCameraEditor.cpp:
+	.text       start:0x80124A70 end:0x8012530C
+	.text       start:0x8012530C end:0x8012566C
+	.text       start:0x8012566C end:0x80125684
+	.text       start:0x80125684 end:0x801256A0
+
+game/pxdvs/app/floor/floorOffscreen.cpp:
+	.text       start:0x801256A0 end:0x80125AE0
+
+game/pxdvs/app/floor/floorManager.cpp:
+	.text       start:0x80125AE0 end:0x801279D8
+	.text       start:0x801279D8 end:0x80127D30
+	.text       start:0x80127D30 end:0x80127D44
+	.text       start:0x80127D44 end:0x80127DA4
+	.text       start:0x80127DA4 end:0x80127DAC
+
+game/pxdvs/app/floor/floorModule.cpp:
+	.text       start:0x80127DAC end:0x8012959C
+	.text       start:0x8012959C end:0x801296B0
+	.text       start:0x801296B0 end:0x801296C0
+
+game/pxdvs/app/floor/floorStack.cpp:
+	.text       start:0x801296C0 end:0x80129DE4
+	.text       start:0x80129DE4 end:0x80129E00
+
+game/pxdvs/app/floor/floorLoad.cpp:
+	.text       start:0x80129E00 end:0x80129F7C
+
+game/pxdvs/app/floor/floorScript.cpp:
+	.text       start:0x80129F7C end:0x8012A540
+	.text       start:0x8012A540 end:0x8012A550
+
+game/pxdvs/app/floor/floorsound.cpp:
+	.text       start:0x8012A550 end:0x8012AD40
+	.text       start:0x8012AD40 end:0x8012AD50
+	.ctors      start:0x802E9FC8 end:0x802E9FCC
+
+game/pxdvs/GSAPI/GSparticle/GSparticle.cpp:
+	.text       start:0x8012AD50 end:0x8012DC3C
+
+game/pxdvs/GSAPI/GSparticle/peParticle.cpp:
+	.text       start:0x8012DC3C end:0x8012FAD8
+
+game/pxdvs/GSAPI/GSparticle/peNode.cpp:
+	.text       start:0x8012FAD8 end:0x8013015C
+
+game/pxdvs/GSAPI/GSparticle/peBank.cpp:
+	.text       start:0x8013015C end:0x801322C4
+
+game/pxdvs/GSAPI/GSparticle/peEmitter.cpp:
+	.text       start:0x801322C4 end:0x801347C0
+
+game/pxdvs/GSAPI/GSparticle/peModel.cpp:
+	.text       start:0x801347C0 end:0x801357BC
+
+game/pxdvs/GSAPI/GSparticle/peContainer.cpp:
+	.text       start:0x801357BC end:0x80136154
+
+game/pxdvs/GSAPI/GSparticle/peDistortion.cpp:
+	.text       start:0x80136154 end:0x80137628
+
+game/pxdvs/GSAPI/GSparticle/peParticleStrip.cpp:
+	.text       start:0x80137628 end:0x80138724
+
+game/pxdvs/GSAPI/GSparticle/peSpline.cpp:
+	.text       start:0x80138724 end:0x80138B7C
+
+game/pxdvs/GSAPI/GSparticle/particleEngine.cpp:
+	.text       start:0x80138B7C end:0x8013A67C
+	.ctors      start:0x802E9FCC end:0x802E9FD0
+
+game/pxdvs/GSAPI/GSparticle/peShape.cpp:
+	.text       start:0x8013A67C end:0x8013C2D4
+
+game/pxdvs/app/joutai/joutai.cpp:
+	.text       start:0x8013C2D4 end:0x8013CD98
+
+game/pxdvs/app/joutai/joutaiBios.cpp:
+	.text       start:0x8013CD98 end:0x8013D03C
+
+game/pxdvs/app/waza/waza.cpp:
+	.text       start:0x8013D03C end:0x8013D7B0
+
+game/pxdvs/app/waza/wazaBios.cpp:
+	.text       start:0x8013D7B0 end:0x8013E044
+
+game/pxdvs/app/waza/wazaDB.cpp:
+	.text       start:0x8013E044 end:0x8013E90C
+
+game/pxdvs/app/pokemon/pokemon.cpp:
+	.text       start:0x8013E90C end:0x8014418C
+
+game/pxdvs/app/pokemon/pokemonBios.cpp:
+	.text       start:0x8014418C end:0x8014713C
+
+game/pxdvs/app/pokemon/pokemonDB.cpp:
+	.text       start:0x8014713C end:0x80149C0C
+
+game/pxdvs/app/pokemon/pokemonEvolution.cpp:
+	.text       start:0x80149C0C end:0x8014AA60
+
+game/pxdvs/app/pokemon/pokemonStatusFightoutPokemon.cpp:
+	.text       start:0x8014AA60 end:0x8014AAC0
+
+game/pxdvs/app/pokemon/pokemonStatusFightPokemon.cpp:
+	.text       start:0x8014AAC0 end:0x8014AAE0
+
+game/pxdvs/app/pokemon/pokemonStatusPokemon.cpp:
+	.text       start:0x8014AAE0 end:0x8014BAB4
+
+game/pxdvs/app/pokemon/darkPokemon.cpp:
+	.text       start:0x8014BAB4 end:0x8014BF4C
+
+game/pxdvs/app/pokemon/darkPokemonBios.cpp:
+	.text       start:0x8014BF4C end:0x8014C558
+
+game/pxdvs/app/hero/hero.cpp:
+	.text       start:0x8014C558 end:0x8014DC28
+
+game/pxdvs/app/hero/heroBios.cpp:
+	.text       start:0x8014DC28 end:0x8014E174
+
+game/pxdvs/app/hero/heroMove.cpp:
+	.text       start:0x8014E174 end:0x8015224C
+	.ctors      start:0x802E9FD0 end:0x802E9FD4
+
+game/pxdvs/app/hero/heroPokemonGet.cpp:
+	.text       start:0x8015224C end:0x801528C4
+
+game/pxdvs/app/hero/heroMemberFunctions.cpp:
+	.text       start:0x801528C4 end:0x80153188
+
+game/pxdvs/GSAPI/GSeffect/GSeffect.cpp:
+	.text       start:0x80153188 end:0x80153550
+
+game/pxdvs/app/sex/sex.cpp:
+	.text       start:0x80153550 end:0x80153564
+
+game/pxdvs/app/msgctrl/msgctrl.cpp:
+	.text       start:0x80153564 end:0x801553A0
+
+game/pxdvs/app/dbgMenu/dbgMenu.cpp:
+	.text       start:0x801553A0 end:0x801560EC
+
+game/pxdvs/app/pcbox/pcbox.cpp:
+	.text       start:0x801560EC end:0x801576DC
+
+game/pxdvs/app/gamedata/gamedatasaveBios.cpp:
+	.text       start:0x801576DC end:0x80157A40
+
+game/pxdvs/app/gamedata/gamedataBios.cpp:
+	.text       start:0x80157A40 end:0x80157B5C
+
+game/pxdvs/app/gamedata/gamedata.cpp:
+	.text       start:0x80157B5C end:0x801586C0
+
+game/pxdvs/app/status/status.cpp:
+	.text       start:0x801586C0 end:0x80158908
+
+game/pxdvs/app/kouka/kouka.cpp:
+	.text       start:0x80158908 end:0x80158BF8
+
+game/pxdvs/app/kouka/koukaBios.cpp:
+	.text       start:0x80158BF8 end:0x80158D18
+
+game/pxdvs/app/tenkou/tenkouBios.cpp:
+	.text       start:0x80158D18 end:0x80158DA4
+
+game/pxdvs/app/tikei/tikeiBios.cpp:
+	.text       start:0x80158DA4 end:0x80158E64
+
+game/pxdvs/app/effects/filter.cpp:
+	.text       start:0x80158E64 end:0x801594C0
+
+game/pxdvs/app/effects/envMap.cpp:
+	.text       start:0x801594C0 end:0x8015960C
+
+game/pxdvs/app/effects/blur.cpp:
+	.text       start:0x8015960C end:0x80159E94
+
+game/pxdvs/app/effects/glow.cpp:
+	.text       start:0x80159E94 end:0x8015B018
+
+game/pxdvs/app/item/item.cpp:
+	.text       start:0x8015B018 end:0x8015D960
+
+game/pxdvs/app/item/itemBios.cpp:
+	.text       start:0x8015D960 end:0x8015EB84
+
+game/pxdvs/app/item/itemDB.cpp:
+	.text       start:0x8015EB84 end:0x8015EFB0
+
+game/pxdvs/app/item/itemUse2Pokemon.cpp:
+	.text       start:0x8015EFB0 end:0x80161268
+
+game/pxdvs/app/item/itemFightItem.cpp:
+	.text       start:0x80161268 end:0x80161308
+
+musyx/runtime/seq.c:
+	.text       start:0x80161308 end:0x80165244
+
+musyx/runtime/synth.c:
+	.text       start:0x80165244 end:0x801686F0
+
+musyx/runtime/seq_api.c:
+	.text       start:0x801686F0 end:0x80168958
+
+musyx/runtime/snd_synthapi.c:
+	.text       start:0x80168958 end:0x80168E0C
+
+musyx/runtime/stream.c:
+	.text       start:0x80168E0C end:0x8016D330
+
+musyx/runtime/synthdata.c:
+	.text       start:0x8016D330 end:0x8016EC94
+
+musyx/runtime/synthmacros.c:
+	.text       start:0x8016EC94 end:0x80173B7C
+
+musyx/runtime/synthvoice.c:
+	.text       start:0x80173B7C end:0x801756A4
+
+musyx/runtime/synth_ac.c:
+	.text       start:0x801756A4 end:0x801757C4
+
+musyx/runtime/synth_adsr.c:
+	.text       start:0x801757C4 end:0x80175F84
+
+musyx/runtime/synth_vsamples.c:
+	.text       start:0x80175F84 end:0x8017691C
+
+musyx/runtime/s_data.c:
+	.text       start:0x8017691C end:0x801771DC
+
+musyx/runtime/hw_dspctrl.c:
+	.text       start:0x801771DC end:0x8017A84C
+
+musyx/runtime/hw_volconv.c:
+	.text       start:0x8017A84C end:0x8017AF3C
+
+musyx/runtime/snd3d.c:
+	.text       start:0x8017AF3C end:0x8017D260
+
+musyx/runtime/snd_init.c:
+	.text       start:0x8017D260 end:0x8017D3D4
+
+musyx/runtime/snd_math.c:
+	.text       start:0x8017D3D4 end:0x8017D794
+
+musyx/runtime/snd_midictrl.c:
+	.text       start:0x8017D794 end:0x8017FAA4
+
+musyx/runtime/snd_service.c:
+	.text       start:0x8017FAA4 end:0x8017FD78
+
+musyx/runtime/hardware.c:
+	.text       start:0x8017FD78 end:0x80180E58
+
+musyx/runtime/hw_aramdma.c:
+	.text       start:0x80180E58 end:0x80181BE0
+
+musyx/runtime/hw_dolphin.c:
+	.text       start:0x80181BE0 end:0x80182130
+
+musyx/runtime/hw_memory.c:
+	.text       start:0x80182130 end:0x801821BC
+
+musyx/runtime/StdReverb/reverb_fx.c:
+	.text       start:0x801821BC end:0x801822B0
+
+musyx/runtime/StdReverb/reverb.c:
+	.text       start:0x801822B0 end:0x80183140
 
 game/pxdvs/app/camera/camera.cpp:
 	.text       start:0x80196A14 end:0x8019AFFC
