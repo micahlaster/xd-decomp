@@ -408,10 +408,10 @@ static void OSExceptionInit(void) {
     if (*(u32*)destAddr == 0) // Lomem should be zero cleared only once by BS2
     {
         DBPrintf("Installing OSDBIntegrator\n");
-        memcpy(destAddr, (void*)__OSDBINTSTART, (u32)__OSDBINTEND - (u32)__OSDBINTSTART);
-        DCFlushRangeNoSync(destAddr, (u32)__OSDBINTEND - (u32)__OSDBINTSTART);
+        memcpy(destAddr, (void*)__OSDBINTSTART, (u32)__OSDBJUMPSTART - (u32)__OSDBINTSTART);
+        DCFlushRangeNoSync(destAddr, (u32)__OSDBJUMPSTART - (u32)__OSDBINTSTART);
         __sync();
-        ICInvalidateRange(destAddr, (u32)__OSDBINTEND - (u32)__OSDBINTSTART);
+        ICInvalidateRange(destAddr, (u32)__OSDBJUMPSTART - (u32)__OSDBINTSTART);
     }
     
     // Copy the right vector into the table

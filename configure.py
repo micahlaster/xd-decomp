@@ -378,7 +378,7 @@ config.libs = [
     DolphinLib(
         "os",
         [
-            Object(NonMatching, "dolphin/os/OS.c"),
+            Object(MatchingFor("NXXJ01"), "dolphin/os/OS.c"),
             Object(MatchingFor("GXXE01"), "dolphin/os/OSAlarm.c"),
             Object(NonMatching, "dolphin/os/OSArena.c"),
             Object(MatchingFor("GXXE01", "NXXJ01"), "dolphin/os/OSAudioSystem.c"),
