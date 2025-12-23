@@ -17,8 +17,8 @@ static void DBGEXIInit(void);
 static BOOL DBGEXISelect(u32);
 static BOOL DBGEXIDeselect(void);
 static BOOL DBGReadStatus(void*);
-static BOOL DBGWrite(u32, u32*, s32);
-static BOOL DBGRead(u32, u32*, s32);
+static BOOL DBGWrite(u32, void*, s32);
+static BOOL DBGRead(u32, void*, s32);
 static BOOL DBGWriteMailbox(u32);
 static BOOL DBGReadMailbox(void*);
 static BOOL DBGEXIImm(void*, s32, u32);
@@ -116,7 +116,7 @@ static BOOL DBGWriteMailbox(u32 param_1)
 	return !error;
 }
 
-static BOOL DBGRead(u32 param1, u32* data, s32 byte_size)
+static BOOL DBGRead(u32 param1, void* data, s32 byte_size)
 {
 	BOOL error   = FALSE;
 	u32* dataPtr = (u32*)data;
@@ -147,7 +147,7 @@ static BOOL DBGRead(u32 param1, u32* data, s32 byte_size)
 	return !error;
 }
 
-static BOOL DBGWrite(u32 param1, u32* data, s32 byte_size)
+static BOOL DBGWrite(u32 param1, void* data, s32 byte_size)
 {
 	BOOL error   = FALSE;
 	u32* dataPtr = (u32*)data;
