@@ -1563,8 +1563,354 @@ game/pxdvs/app/camera/camera.cpp:
 	.text       start:0x80196A14 end:0x8019B01C
 	.ctors      start:0x802E9FD4 end:0x802E9FD8
 
+game/pxdvs/GSAPI/GSfsys/fsysStream.cpp:
+	.text       start:0x8019B01C end:0x8019B2AC
+
+game/pxdvs/GSAPI/GSfsys/fsysBlock.cpp:
+	.text       start:0x8019B2AC end:0x8019B6B4
+
+game/pxdvs/GSAPI/GSfsys/fsysCache.cpp:
+	.text       start:0x8019B6B4 end:0x8019C130
+
+game/pxdvs/GSAPI/GSfsys/fsysRead.cpp:
+	.text       start:0x8019C130 end:0x8019D10C
+
+game/pxdvs/GSAPI/GSfsys/fsysAlloc.cpp:
+	.text       start:0x8019D10C end:0x8019D5F4
+
+game/pxdvs/GSAPI/GSfsys/GSfsys2.cpp:
+	.text       start:0x8019D5F4 end:0x801A02F0
+
+game/pxdvs/GSAPI/GSflag/GSflag.cpp:
+	.text       start:0x801A02F0 end:0x801A0904
+
+game/pxdvs/GSAPI/GSbound/GSbound.cpp:
+	.text       start:0x801A0904 end:0x801A25F4
+
+game/pxdvs/app/battleGrid/battleGrid.cpp:
+	.text       start:0x801A25F4 end:0x801A37DC
+
+game/pxdvs/app/battleGrid/wazaSequenceCamera.cpp:
+	.text       start:0x801A37DC end:0x801A57F8
+
+game/pxdvs/app/battleGrid/wazaSequenceCameraData.cpp:
+	.text       start:0x801A57F8 end:0x801A594C
+
+game/pxdvs/app/battleGrid/battleCamera.cpp:
+	.text       start:0x801A594C end:0x801A7684
+
+game/pxdvs/app/fade/fade.cpp:
+	.text       start:0x801A7684 end:0x801A8164
+
+game/pxdvs/app/fade/fade_effect.cpp:
+	.text       start:0x801A8164 end:0x801B715C
+	.ctors      start:0x802E9FD8 end:0x802E9FDC
+
+game/pxdvs/app/fade/fade_fluid.cpp:
+	.text       start:0x801B715C end:0x801B8474
+
+game/pxdvs/app/script/appScript.cpp:
+	.text       start:0x801B8474 end:0x801BE3CC
+
+game/pxdvs/app/script/objCamera.cpp:
+	.text       start:0x801BE3CC end:0x801C057C
+
+game/pxdvs/app/script/objFloor.cpp:
+	.text       start:0x801C057C end:0x801C1930
+
+game/pxdvs/app/script/objHero.cpp:
+	.text       start:0x801C1930 end:0x801C2928
+
+game/pxdvs/app/script/objMenu.cpp:
+	.text       start:0x801C2928 end:0x801C3EA8
+
+game/pxdvs/app/script/objPeople.cpp:
+	.text       start:0x801C3EA8 end:0x801C5BE0
+
+game/pxdvs/app/script/script.cpp:
+	.text       start:0x801C5BE0 end:0x801C9018
+
+game/pxdvs/app/script/scriptModel.cpp:
+	.text       start:0x801C9018 end:0x801C986C
+
+game/pxdvs/app/script/contSave.cpp:
+	.text       start:0x801C986C end:0x801C9968
+
 game/pxdvs/app/memcard/memcard.cpp:
 	.text       start:0x801C9968 end:0x801CE8FC
+
+game/pxdvs/app/memcard/savedata.cpp:
+	.text       start:0x801CE8FC end:0x801CF11C
+
+game/pxdvs/app/memcard/savedataBios.cpp:
+	.text       start:0x801CF11C end:0x801CF348
+
+game/pxdvs/app/recovery/recovery.cpp:
+	.text       start:0x801CF348 end:0x801CF404
+
+game/pxdvs/app/recovery/recoveryEvent.cpp:
+	.text       start:0x801CF404 end:0x801CF7A4
+
+game/pxdvs/app/mail/mailMain.cpp:
+	.text       start:0x801CF7A4 end:0x801CFCA8
+
+game/pxdvs/app/mail/mail.cpp:
+	.text       start:0x801CFCA8 end:0x801D0230
+
+game/pxdvs/app/wazaSequence/wazaSequence.cpp:
+	.text       start:0x801D0230 end:0x801D1AD4
+
+game/pxdvs/app/wazaSequence/wazaSequenceSys.cpp:
+	.text       start:0x801D1AD4 end:0x801D42C4
+
+game/pxdvs/app/wazaSequence/modelSequence.cpp:
+	.text       start:0x801D42C4 end:0x801D9DFC
+
+game/pxdvs/app/wazaSequence/nullSequence.cpp:
+	.text       start:0x801D9DFC end:0x801DA28C
+
+game/pxdvs/app/wazaSequence/wazaSequenceEntry.cpp:
+	.text       start:0x801DA28C end:0x801DE268
+
+game/pxdvs/app/wazaSequence/pachiru.cpp:
+	.text       start:0x801DE268 end:0x801DE698
+
+game/pxdvs/app/wazaSequence/leaffx.cpp:
+	.text       start:0x801DE698 end:0x801DF42C
+
+game/pxdvs/app/wazaSequence/billboard.cpp:
+	.text       start:0x801DF42C end:0x801DF9AC
+
+game/pxdvs/app/wazaSequence/wazaeffects.cpp:
+	.text       start:0x801DF9AC end:0x801DFD70
+
+game/pxdvs/app/wazaSequence/boneFill.cpp:
+	.text       start:0x801DFD70 end:0x801E016C
+
+game/pxdvs/app/etctools/etctools.cpp:
+	.text       start:0x801E016C end:0x801E01A8
+
+game/pxdvs/GSAPI/GSvtr/GSvtr.cpp:
+	.text       start:0x801E01A8 end:0x801E07B8
+
+game/pxdvs/GSAPI/GSmovie/movieStream.cpp:
+	.text       start:0x801E07B8 end:0x801E21E0
+
+game/pxdvs/GSAPI/GSmovie/GSmovie.cpp:
+	.text       start:0x801E21E0 end:0x801E425C
+
+game/pxdvs/GSAPI/GSmovie/THPDraw.cpp:
+	.text       start:0x801E425C end:0x801E51CC
+
+game/pxdvs/GSAPI/GSmovie/THPDec.cpp:
+	.text       start:0x801E51CC end:0x801EC734
+
+game/pxdvs/GSAPI/GSmovie/THPAudio.cpp:
+	.text       start:0x801EC734 end:0x801ECBB0
+
+game/pxdvs/app/sodateya/sodateya.cpp:
+	.text       start:0x801ECBB0 end:0x801ED628
+
+game/pxdvs/GSAPI/GSlensFlare/GSlensFlare.cpp:
+	.text       start:0x801ED628 end:0x801EEBE4
+
+game/pxdvs/app/fight/fightMain.cpp:
+	.text       start:0x801EEBE4 end:0x801EF640
+
+game/pxdvs/app/fight/fightKind.cpp:
+	.text       start:0x801EF640 end:0x801EFA74
+
+game/pxdvs/app/fight/fightTarget.cpp:
+	.text       start:0x801EFA74 end:0x801F0208
+
+game/pxdvs/app/fight/fightType.cpp:
+	.text       start:0x801F0208 end:0x801F0324
+
+game/pxdvs/app/fight/fightWaza.cpp:
+	.text       start:0x801F0324 end:0x801F09D8
+
+game/pxdvs/app/fight/fightWazaBios.cpp:
+	.text       start:0x801F09D8 end:0x801F0D18
+
+game/pxdvs/app/fight/fightEncount.cpp:
+	.text       start:0x801F0D18 end:0x801F14C8
+
+game/pxdvs/app/fight/fightEncountBios.cpp:
+	.text       start:0x801F14C8 end:0x801F19F8
+
+game/pxdvs/app/fight/fightFloor.cpp:
+	.text       start:0x801F19F8 end:0x801F5B38
+	.ctors      start:0x802E9FDC end:0x802E9FE0
+
+game/pxdvs/app/fight/fightFloorBios.cpp:
+	.text       start:0x801F5B38 end:0x801F6280
+
+game/pxdvs/app/fight/fightFloorDB.cpp:
+	.text       start:0x801F6280 end:0x801F8018
+
+game/pxdvs/app/fight/fightSideBios.cpp:
+	.text       start:0x801F8018 end:0x801F81D4
+
+game/pxdvs/app/fight/fightSide.cpp:
+	.text       start:0x801F81D4 end:0x801F8CF0
+
+game/pxdvs/app/fight/fightSideDB.cpp:
+	.text       start:0x801F8CF0 end:0x801F8DDC
+
+game/pxdvs/app/fight/fightTrainer.cpp:
+	.text       start:0x801F8DDC end:0x801FD794
+
+game/pxdvs/app/fight/fightTrainerBios.cpp:
+	.text       start:0x801FD794 end:0x801FDA48
+
+game/pxdvs/app/fight/fightTrainerDB.cpp:
+	.text       start:0x801FDA48 end:0x802000F0
+
+game/pxdvs/app/fight/fightTrainerEnemy.cpp:
+	.text       start:0x802000F0 end:0x802004EC
+
+game/pxdvs/app/fight/fightItemBios.cpp:
+	.text       start:0x802004EC end:0x8020058C
+
+game/pxdvs/app/fight/fightItem.cpp:
+	.text       start:0x8020058C end:0x80200644
+
+game/pxdvs/app/fight/fightPokemon.cpp:
+	.text       start:0x80200644 end:0x80207010
+
+game/pxdvs/app/fight/fightPokemonBios.cpp:
+	.text       start:0x80207010 end:0x802080C4
+
+game/pxdvs/app/fight/fightPokemonEnemy.cpp:
+	.text       start:0x802080C4 end:0x80208288
+
+game/pxdvs/app/fight/fightActionBios.cpp:
+	.text       start:0x80208288 end:0x802084D8
+
+game/pxdvs/app/fight/fightAction.cpp:
+	.text       start:0x802084D8 end:0x80208C54
+
+game/pxdvs/app/fight/fightActionFlow.cpp:
+	.text       start:0x80208C54 end:0x8020BF78
+
+game/pxdvs/app/fight/fightActionDisp.cpp:
+	.text       start:0x8020BF78 end:0x8020C018
+
+game/pxdvs/app/fight/fightKouka.cpp:
+	.text       start:0x8020C018 end:0x8020C17C
+
+game/pxdvs/app/fight/fightKoukaBios.cpp:
+	.text       start:0x8020C17C end:0x8020C1F0
+
+game/pxdvs/app/fight/fightJouken.cpp:
+	.text       start:0x8020C1F0 end:0x8020C590
+
+game/pxdvs/app/fight/fightJoukenBios.cpp:
+	.text       start:0x8020C590 end:0x8020C88C
+
+game/pxdvs/app/fight/fightAbicnt.cpp:
+	.text       start:0x8020C88C end:0x8020C9B0
+
+game/pxdvs/app/fight/fight.cpp:
+	.text       start:0x8020C9B0 end:0x8020D858
+	.ctors      start:0x802E9FE0 end:0x802E9FE4
+
+game/pxdvs/app/fight/fightSeq/fightSeqWSWaza.cpp:
+	.text       start:0x8020D858 end:0x8020FD6C
+
+game/pxdvs/app/fight/fightSeq/fightSeqBasis.cpp:
+	.text       start:0x8020FD6C end:0x80218C08
+
+game/pxdvs/app/fight/fightSeq/fightSeqItemseq.cpp:
+	.text       start:0x80218C08 end:0x80219878
+
+game/pxdvs/app/fight/fightSeq/fightSeqSpAction.cpp:
+	.text       start:0x80219878 end:0x8021B8C8
+
+game/pxdvs/app/fight/fightSeq/fightSeqStatus.cpp:
+	.text       start:0x8021B8C8 end:0x8021BC10
+
+game/pxdvs/app/fight/fightSeq/fightSeqWazaseq.cpp:
+	.text       start:0x8021BC10 end:0x8022364C
+
+game/pxdvs/app/fight/fightSeq/fightSeq.cpp:
+	.text       start:0x8022364C end:0x8022B1F4
+
+game/pxdvs/app/fight/fightSeq/fightWazaWzx.cpp:
+	.text       start:0x8022B1F4 end:0x8022C628
+
+game/pxdvs/app/fight/fightTrainerAi2.cpp:
+	.text       start:0x8022C628 end:0x8022CD24
+
+game/pxdvs/app/fight/fightTrainerAiWazaHit.cpp:
+	.text       start:0x8022CD24 end:0x80231AB4
+
+game/pxdvs/app/toolentry/toolentry.cpp:
+	.text       start:0x80231AB4 end:0x80232774
+
+game/pxdvs/app/tableRes/tableResBios.cpp:
+	.text       start:0x80232774 end:0x802327CC
+
+game/pxdvs/app/pokemon/pokemonRelive.cpp:
+	.text       start:0x802327CC end:0x80233B20
+	.ctors      start:0x802E9FE4 end:0x802E9FE8
+
+game/pxdvs/app/pokemon/pokemonWazaSequenceDisplay.cpp:
+	.text       start:0x80233B20 end:0x80233C8C
+
+gba/GBA.c:
+	.text       start:0x80233C8C end:0x80233F7C
+
+gba/GBARead.c:
+	.text       start:0x80233F7C end:0x802340DC
+
+gba/GBAWrite.c:
+	.text       start:0x802340DC end:0x80234264
+
+gba/GBAXfer.c:
+	.text       start:0x80234264 end:0x80234578
+
+game/pxdvs/app/memo/memo.cpp:
+	.text       start:0x80234578 end:0x80234E58
+
+game/pxdvs/app/evolution/evolution.cpp:
+	.text       start:0x80234E58 end:0x80236114
+
+game/pxdvs/app/charName/charNameBios.cpp:
+	.text       start:0x80236114 end:0x80236240
+
+game/pxdvs/app/fight/fightGSfloor.cpp:
+	.text       start:0x80236240 end:0x80236A04
+
+game/pxdvs/app/fight/fightMenu.cpp:
+	.text       start:0x80236A04 end:0x80239504
+
+game/pxdvs/app/fight/fightTimer/fightTimer.cpp:
+	.text       start:0x80239504 end:0x802399D4
+
+game/pxdvs/app/d2present/d2present.cpp:
+	.text       start:0x802399D4 end:0x80239A10
+
+game/pxdvs/GSAPI/GSScript/tiga.cpp:
+	.text       start:0x80239A10 end:0x8023EF20
+	.text       start:0x8023EF20 end:0x8023EF28
+	.text       start:0x8023EF28 end:0x8023EFCC
+
+game/pxdvs/GSAPI/GSScript/tvariant.cpp:
+	.text       start:0x8023EFCC end:0x802424B4
+	.ctors      start:0x802E9FE8 end:0x802E9FEC
+
+game/pxdvs/GSAPI/GSScript/chank.cpp:
+	.text       start:0x802424B4 end:0x802426B4
+
+game/pxdvs/GSAPI/GSScript/defobj.cpp:
+	.text       start:0x802426B4 end:0x802434E8
+
+game/pxdvs/GSAPI/GSnetwork/GSnetwork.cpp:
+	.text       start:0x802434E8 end:0x802434F0
+
+game/pxdvs/app/effectEditor/effectEditor.cpp:
+	.text       start:0x802434F0 end:0x802434FC
 
 PowerPC_EABI_Support/Runtime/Src/__mem.c:
 	.init       start:0x8000540C end:0x80005544
