@@ -842,7 +842,7 @@ PowerPC_EABI_Support/Runtime/Src/runtime.c:
 	.rodata     start:0x802ECA18 end:0x802ECA30
 
 PowerPC_EABI_Support/Runtime/Src/__init_cpp_exceptions.cpp:
-	.text       start:0x800DA8C0 end:0x800DA8FC
+	.text       start:0x800DA88C end:0x800DA8FC
 	.ctors      start:0x802E9F80 end:0x802E9F84
 	.dtors      start:0x802EA000 end:0x802EA004
 	.sdata      start:0x804E82D0 end:0x804E82D4
@@ -1911,6 +1911,329 @@ game/pxdvs/GSAPI/GSnetwork/GSnetwork.cpp:
 
 game/pxdvs/app/effectEditor/effectEditor.cpp:
 	.text       start:0x802434F0 end:0x802434FC
+
+game/maximum/GSAPI/baselib/wobj.cpp:
+	.text       start:0x802434FC end:0x80243E38
+
+game/maximum/GSAPI/baselib/archive.cpp:
+	.text       start:0x80243E38 end:0x80244048
+
+game/maximum/GSAPI/baselib/bytecode.cpp:
+	.text       start:0x80244048 end:0x80245688
+
+game/maximum/GSAPI/baselib/class.cpp:
+	.text       start:0x80245688 end:0x80245AB8
+
+game/maximum/GSAPI/baselib/cobj.cpp:
+	.text       start:0x80245AB8 end:0x80247D08
+
+game/maximum/GSAPI/baselib/debug.cpp:
+	.text       start:0x80247D08 end:0x80247EDC
+
+game/maximum/GSAPI/baselib/displayfunc.cpp:
+	.text       start:0x80247EDC end:0x802494F0
+
+game/maximum/GSAPI/baselib/dobj.cpp:
+	.text       start:0x802494F0 end:0x80249CDC
+
+game/maximum/GSAPI/baselib/fobj.cpp:
+	.text       start:0x80249CDC end:0x8024BDC4
+
+game/maximum/GSAPI/baselib/fog.cpp:
+	.text       start:0x8024BDC4 end:0x8024C088
+
+game/maximum/GSAPI/baselib/hash.cpp:
+	.text       start:0x8024C088 end:0x8024C188
+
+game/maximum/GSAPI/baselib/id.cpp:
+	.text       start:0x8024C188 end:0x8024C43C
+
+game/maximum/GSAPI/baselib/initialize.cpp:
+	.text       start:0x8024C43C end:0x8024C9E4
+
+game/maximum/GSAPI/baselib/jobj.cpp:
+	.text       start:0x8024C9E4 end:0x80253338
+
+game/maximum/GSAPI/baselib/list.cpp:
+	.text       start:0x80253338 end:0x80253594
+
+game/maximum/GSAPI/baselib/lobj.cpp:
+	.text       start:0x80253594 end:0x80255DAC
+
+game/maximum/GSAPI/baselib/memory.cpp:
+	.text       start:0x80255DAC end:0x80255EB8
+
+game/maximum/GSAPI/baselib/mobj.cpp:
+	.text       start:0x80255EB8 end:0x80257830
+
+game/maximum/GSAPI/baselib/mtx_base.cpp:
+	.text       start:0x80257830 end:0x802594C0
+
+game/maximum/GSAPI/baselib/objalloc.cpp:
+	.text       start:0x802594C0 end:0x802596A4
+
+game/maximum/GSAPI/baselib/object.cpp:
+	.text       start:0x802596A4 end:0x802596E8
+
+game/maximum/GSAPI/baselib/pobj.cpp:
+	.text       start:0x802596E8 end:0x8025C54C
+
+game/maximum/GSAPI/baselib/quatlib.cpp:
+	.text       start:0x8025C54C end:0x8025C940
+
+game/maximum/GSAPI/baselib/random.cpp:
+	.text       start:0x8025C940 end:0x8025CA38
+
+game/maximum/GSAPI/baselib/robj.cpp:
+	.text       start:0x8025CA38 end:0x8025EE68
+
+game/maximum/GSAPI/baselib/shadow_base.cpp:
+	.text       start:0x8025EE68 end:0x802601F8
+
+game/maximum/GSAPI/baselib/spline.cpp:
+	.text       start:0x802601F8 end:0x80260E38
+
+game/maximum/GSAPI/baselib/state.cpp:
+	.text       start:0x80260E38 end:0x80261790
+
+game/maximum/GSAPI/baselib/tev.cpp:
+	.text       start:0x80261790 end:0x80262808
+
+game/maximum/GSAPI/baselib/texp.cpp:
+	.text       start:0x80262808 end:0x80265A84
+
+game/maximum/GSAPI/baselib/texpdag.cpp:
+	.text       start:0x80265A84 end:0x80266A94
+
+game/maximum/GSAPI/baselib/texpopt.cpp:
+	.text       start:0x80266A94 end:0x802694E0
+
+game/maximum/GSAPI/baselib/tobj.cpp:
+	.text       start:0x802694E0 end:0x8026CA60
+
+game/maximum/GSAPI/baselib/util.cpp:
+	.text       start:0x8026CA60 end:0x8026CC2C
+
+game/maximum/GSAPI/baselib/aobj.cpp:
+	.text       start:0x8026CC2C end:0x8026F478
+
+game/pxdvs/app/flashmenu/flashmenu.cpp:
+	.text       start:0x8026F478 end:0x802723FC
+
+game/pxdvs/app/flashmenu/flashcalc.cpp:
+	.text       start:0x802723FC end:0x80272BA4
+
+game/pxdvs/app/flashmenu/vecGraph.cpp:
+	.text       start:0x80272BA4 end:0x80276370
+
+game/pxdvs/app/flashmenu/flashsystem.cpp:
+	.text       start:0x80276370 end:0x80277BB4
+
+game/maximum/app/gimmick/gimmickBox.cpp:
+	.text       start:0x80277BB4 end:0x8027C208
+	.ctors      start:0x802E9FEC end:0x802E9FF0
+
+game/pxdvs/GSAPI/GSprim/GSprim.cpp:
+	.text       start:0x8027C208 end:0x8027C920
+
+game/pxdvs/GSAPI/GSprim/2d.cpp:
+	.text       start:0x8027C920 end:0x8027DBB4
+
+game/pxdvs/GSAPI/GSprim/text.cpp:
+	.text       start:0x8027DBB4 end:0x8027E4F0
+
+game/pxdvs/GSAPI/GSshape/shapeAnim.cpp:
+	.text       start:0x8027E4F0 end:0x802806A0
+
+game/pxdvs/GSAPI/GSshape/shapeObject.cpp:
+	.text       start:0x802806A0 end:0x80287C00
+
+game/pxdvs/GSAPI/GSshape/shapeRender.cpp:
+	.text       start:0x80287C00 end:0x8028A1D4
+
+game/pxdvs/GSAPI/GSshape/GSshape.cpp:
+	.text       start:0x8028A1D4 end:0x8028ABF4
+
+game/pxdvs/app/deck/deck.cpp:
+	.text       start:0x8028ABF4 end:0x8028BFB8
+
+game/pxdvs/app/deck/deckDataVirtualBios.cpp:
+	.text       start:0x8028BFB8 end:0x8028C400
+
+game/pxdvs/app/reliveHall/reliveHall.cpp:
+	.text       start:0x8028C400 end:0x8028E7E4
+
+game/pxdvs/app/ant/ant.cpp:
+	.text       start:0x8028E7E4 end:0x80292298
+
+game/pxdvs/app/mball/mballBios.cpp:
+	.text       start:0x80292298 end:0x802922C4
+
+game/pxdvs/app/ribbon/ribbon.cpp:
+	.text       start:0x802922C4 end:0x802922FC
+
+game/pxdvs/app/ribbon/exribbon.cpp:
+	.text       start:0x802922FC end:0x8029245C
+
+game/pxdvs/app/light/lightEditor.cpp:
+	.text       start:0x8029245C end:0x80294190
+
+game/pxdvs/app/light/light.cpp:
+	.text       start:0x80294190 end:0x80294414
+
+game/pxdvs/app/esaba/esaba.cpp:
+	.text       start:0x80294414 end:0x80295BE0
+
+game/pxdvs/app/underTaker/undertaker.cpp:
+	.text       start:0x80295BE0 end:0x802966C0
+
+game/pxdvs/app/underTaker/undertakerBios.cpp:
+	.text       start:0x802966C0 end:0x8029677C
+
+game/maximum/app/bingo/bingoBios.cpp:
+	.text       start:0x8029677C end:0x80296D4C
+
+game/pxdvs/app/people/peopleInfoBios.cpp:
+	.text       start:0x80296D4C end:0x80297054
+
+game/pxdvs/app/people/peopleBios.cpp:
+	.text       start:0x80297054 end:0x802979AC
+
+game/pxdvs/app/people/people.cpp:
+	.text       start:0x802979AC end:0x802A0518
+
+game/pxdvs/app/people/peopleViewer.cpp:
+	.text       start:0x802A0518 end:0x802A1644
+	.ctors      start:0x802E9FF0 end:0x802E9FF4
+
+game/pxdvs/app/people/peoplePartAnimation.cpp:
+	.text       start:0x802A1644 end:0x802A1A74
+
+game/pxdvs/app/people/peopleSave.cpp:
+	.text       start:0x802A1A74 end:0x802A2E58
+
+game/pxdvs/app/people/peopleTalk.cpp:
+	.text       start:0x802A2E58 end:0x802A3820
+
+game/pxdvs/app/people/peopleWalkList.cpp:
+	.text       start:0x802A3820 end:0x802A3B40
+
+game/pxdvs/app/people/peopleMemberFunc.cpp:
+	.text       start:0x802A3B40 end:0x802A3F8C
+
+game/pxdvs/app/people/peopleColision.cpp:
+	.text       start:0x802A3F8C end:0x802A49F0
+
+game/pxdvs/app/mewwaza/mewwaza.cpp:
+	.text       start:0x802A49F0 end:0x802A6220
+
+game/pxdvs/GSAPI/GSstream/GSstream.cpp:
+	.text       start:0x802A6220 end:0x802A6484
+
+game/pxdvs/GSAPI/GSlogM/GSlog.cpp:
+	.text       start:0x802A6484 end:0x802A6E90
+
+game/pxdvs/GSAPI/GSgfxM/backfb.cpp:
+	.text       start:0x802A6E90 end:0x802A72F8
+
+game/pxdvs/GSAPI/GSgfxM/GSgfx.cpp:
+	.text       start:0x802A72F8 end:0x802A74BC
+
+game/pxdvs/GSAPI/GSgfxM/layer.cpp:
+	.text       start:0x802A74BC end:0x802AAF90
+
+game/pxdvs/GSAPI/GSgfxM/render.cpp:
+	.text       start:0x802AAF90 end:0x802ABFE4
+
+game/pxdvs/GSAPI/GSgfxM/perfbar.cpp:
+	.text       start:0x802ABFE4 end:0x802AD060
+
+game/pxdvs/GSAPI/GSgfxM/token.cpp:
+	.text       start:0x802AD060 end:0x802AD7A0
+
+game/pxdvs/GSAPI/GSgfxM/project.cpp:
+	.text       start:0x802AD7A0 end:0x802ADCC8
+
+game/pxdvs/GSAPI/GSgfxM/halt.cpp:
+	.text       start:0x802ADCC8 end:0x802AE160
+
+game/pxdvs/GSAPI/GSgfxM/video.cpp:
+	.text       start:0x802AE160 end:0x802AF8B0
+
+game/pxdvs/GSAPI/GSgfxM/gpu.cpp:
+	.text       start:0x802AF8B0 end:0x802AFF40
+
+game/pxdvs/GSAPI/GSgfxM/vf.cpp:
+	.text       start:0x802AFF40 end:0x802B10F4
+
+game/pxdvs/GSAPI/GSgfxM/dl.cpp:
+	.text       start:0x802B10F4 end:0x802B1D70
+
+game/pxdvs/GSAPI/GSgfxM/layerState.cpp:
+	.text       start:0x802B1D70 end:0x802B5AFC
+
+game/pxdvs/GSAPI/GSgfxM/matrixStack.cpp:
+	.text       start:0x802B5AFC end:0x802B5CB4
+
+game/pxdvs/GSAPI/GSgfxM/layerFunc.cpp:
+	.text       start:0x802B5CB4 end:0x802B70C8
+
+game/pxdvs/GSAPI/GSgfxM/renderModule.cpp:
+	.text       start:0x802B70C8 end:0x802B7464
+
+game/pxdvs/GSAPI/GSgfxM/c_func.cpp:
+	.text       start:0x802B7464 end:0x802B7B98
+
+game/pxdvs/GSAPI/GSgfxM/layerConfig.cpp:
+	.text       start:0x802B7B98 end:0x802B814C
+
+game/pxdvs/GSAPI/GSgfxM/light_gfxm.cpp:
+	.text       start:0x802B814C end:0x802B8504
+
+game/pxdvs/GSAPI/GSgfxM/layerEffect.cpp:
+	.text       start:0x802B8504 end:0x802B96D8
+
+game/pxdvs/GSAPI/GSgfxM/gamecube.cpp:
+	.text       start:0x802B96D8 end:0x802C0084
+
+game/pxdvs/GSAPI/GSgfxM/screenshot.cpp:
+	.text       start:0x802C0084 end:0x802C0098
+
+game/pxdvs/GSAPI/GSgfxM/capture.cpp:
+	.text       start:0x802C0098 end:0x802C00AC
+
+game/pxdvs/GSAPI/GSgfxM/reset.cpp:
+	.text       start:0x802C00AC end:0x802C0710
+
+game/pxdvs/app/fight/fightTrainerAi.cpp:
+	.text       start:0x802C0710 end:0x802C93D4
+
+game/pxdvs/app/fight/fightTrainerAiCombo.cpp:
+	.text       start:0x802C93D4 end:0x802CAB84
+
+game/pxdvs/app/fight/fightTrainerAiItem.cpp:
+	.text       start:0x802CAB84 end:0x802CB068
+
+game/pxdvs/app/fight/fightTrainerAiIrekae.cpp:
+	.text       start:0x802CB068 end:0x802CC6E4
+
+game/pxdvs/app/fight/fightTrainerAiComboFunc.cpp:
+	.text       start:0x802CC6E4 end:0x802D8AA8
+
+game/pxdvs/app/fight/fightTrainerAiWaza.cpp:
+	.text       start:0x802D8AA8 end:0x802DA554
+
+game/pxdvs/app/fight/fightTrainerAiWazaDamage.cpp:
+	.text       start:0x802DA554 end:0x802DC20C
+
+game/pxdvs/app/fight/fightTrainerAiWazaDamageFightPokemon.cpp:
+	.text       start:0x802DC20C end:0x802DDCD0
+
+game/pxdvs/app/fight/fightTrainerAiWazaValue.cpp:
+	.text       start:0x802DDCD0 end:0x802E9808
+
+game/pxdvs/app/fight/fightTrainerAiComboContinueFunc.cpp:
+	.text       start:0x802E9808 end:0x802E9F7C
 
 PowerPC_EABI_Support/Runtime/Src/__mem.c:
 	.init       start:0x8000540C end:0x80005544
