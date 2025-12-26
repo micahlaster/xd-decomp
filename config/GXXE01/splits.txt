@@ -130,10 +130,10 @@ game/menuFight.cpp:
 
 game/menuPocketTool.cpp:
 	.text       start:0x8001EC10 end:0x80022080
-	.text       start:0x80022080 end:0x800221B0
+	.text       start:0x80022080 end:0x8002208C
 
 game/menuPocket.cpp:
-	.text       start:0x800221B0 end:0x80026898
+	.text       start:0x8002208C end:0x80026898
 
 game/gbaPokemon.cpp:
 	.text       start:0x80026898 end:0x80027E84
@@ -180,10 +180,10 @@ game/menuPdaMailXD.cpp:
 	.text       start:0x80042CD0 end:0x80043304
 
 game/menuPdaMailList.XD.cpp:
-	.text       start:0x80043304 end:0x800443E4
+	.text       start:0x80043304 end:0x8004429C
 
 game/menuColosseumBattle.cpp:
-	.text       start:0x800443E4 end:0x80046598
+	.text       start:0x8004429C end:0x80046598
 	.ctors      start:0x802E9F94 end:0x802E9F98
 
 game/menuCB_BattleResult.cpp:
@@ -313,20 +313,20 @@ game/menuBingo.cpp:
 	.text       start:0x8008A160 end:0x80098108
 
 game/menuReliveHallTutorial.cpp:
-	.text       start:0x80098108 end:0x80098C44
+	.text       start:0x80098108 end:0x80098AD8
 
 game/menuPokemonChange.cpp:
-	.text       start:0x80098C44 end:0x8009D4E8
+	.text       start:0x80098AD8 end:0x8009D4E8
 	.ctors      start:0x802E9FA4 end:0x802E9FA8
 
 game/menuWorldMapMoveDemo.cpp:
 	.text       start:0x8009D4E8 end:0x8009D6B8
 
 game/menuWorldMapModel.cpp:
-	.text       start:0x8009D6B8 end:0x8009EC18
+	.text       start:0x8009D6B8 end:0x8009E664
 
 game/menuBattleDisk.cpp:
-	.text       start:0x8009EC18 end:0x800A1494
+	.text       start:0x8009E664 end:0x800A1494
 	.ctors      start:0x802E9FA8 end:0x802E9FAC
 
 game/menuOrreColosseum.cpp:
